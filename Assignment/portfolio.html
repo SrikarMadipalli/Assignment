@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header"><img src="img/light_logo.png" alt="Our Story"></header>
+        <nav>
+            <a href="javascript:void(0)">Home</a>
+            <a href="javascript:void(0)">Our Story</a>
+            <a href="javascript:void(0)">Gallery</a>
+            <a href="javascript:void(0)">Best Friends</a>
+        </nav>
+        <div class="image">
+          <img src="img/Jellyfish.jpg" alt="Not Found">
+          <div class="center">
+              <h3>Centered</h3>
+          </div>
+      </div>
+      <div class="content">
+          <article class="main">
+              <p>Hello</p>
+            </article>
+            <aside class="aside aside-1">Aside 1</aside>
+            <aside class="aside aside-2">Aside 2</aside>
+      </div>
+        <footer class="footer" id="lab_social_icon_footer">
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </footer>
+      </div>
+    
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
