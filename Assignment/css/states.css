@@ -39,3 +39,44 @@ footer a{
     color: #f39c12;
     box-shadow: none;
   }
+@media(max-width:800px){
+    .three-rows{
+        padding:1px;
+    }
+    blockquote{
+        border:none;
+    }
+}
+@media(max-width:700px){
+    .three-column{
+        flex-direction: column;
+    }
+    .two-column{
+        flex-direction: column;
+    }
+    .aside1, .content, .aside2{
+        width:100%;
+    }
+    aside img, section img{
+        width: 100%;  
+    }
+    .videos{
+      padding:30vw;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .three-rows{
+      padding-left: 25%;
+    }
+    .conatiner #text{
+        font-size: 30px;
+    }
+    #texty{
+      font-size: 30px;
+    }
+}
+@media(max-width:462px){
+    .navbar{
+        display: none;
+    }
+}

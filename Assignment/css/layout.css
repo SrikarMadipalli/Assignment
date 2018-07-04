@@ -21,7 +21,6 @@ footer{
 }
 .three-rows{
     display: flex;
-    padding: 20px;
-    padding-top: 75px;
+    padding: 5%;
     flex-direction: column;
 }
