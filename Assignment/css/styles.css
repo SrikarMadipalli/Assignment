@@ -105,33 +105,113 @@ body{
     width: 100%;
     height:50%;
   }
-  #lab_social_icon_footer {
+  #social_icon_footer {
     padding: 14px 0;
   }
-  #lab_social_icon_footer .social:hover {
+  #social_icon_footer .social:hover {
     transform: scale(1.1);
   }
   
-  #lab_social_icon_footer .social {
+  #social_icon_footer .social {
     transform: scale(0.8);
     transition-duration: 0.5s;
   }
-  #lab_social_icon_footer a {
+  #social_icon_footer a {
     color: #333;
   }
-  #lab_social_icon_footer #social-fb:hover {
+  #social_icon_footer #social-fb:hover {
     color: #3B5998;
   }
-  #lab_social_icon_footer #social-tw:hover {
+  #social_icon_footer #social-tw:hover {
     color: #4099FF;
   }
-  #lab_social_icon_footer #social-gp:hover {
+  #social_icon_footer #social-gp:hover {
     color: #d34836;
   }
-  #lab_social_icon_footer #social-em:hover {
+  #social_icon_footer #social-em:hover {
     color: #f39c12;
   }
+  
 
+.form {
+  height: 590px;
+  width: 400px;
+  background-color: rebeccapurple;
+  margin: 110px auto;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  color: #1a1a1a;
+  padding: 0px 0px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+}
+
+.info {
+  padding: 10px;
+}
+
+.form h1, h2, p {
+  text-align: center;
+  padding: 0px;
+  margin: 5px 5px;
+}
+
+.form h2 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 100;
+}
+
+.form p.line {
+  margin: 0px auto 20px auto;
+  color: #1a1a1a;
+}
+
+.form input {
+  font-size: 15px;
+  color: #1a1a1a;
+  padding: 6px;
+  margin: 25px auto 20px;
+  display: block;
+  width: 75%;  
+}
+
+input:focus {
+  outline: 0;
+}
+
+.button button {
+  display: inline-block;
+  width: 400px;
+}
+button {
+  color: #999;
+  background-color: #330C2F;
+  border: none;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 32px;
+  width: 200px;
+  margin: 20px auto 0px auto; 
+  float:left;
+}
+
+button.accept {
+  border-radius: 0px 0px 0px 10px;
+  border-right: solid 1px #B7C0EE;
+}
+
+button.regret {
+  border-radius: 0px 0px 10px 0px;
+}
+
+button:hover {
+  background-color: #B7C0EE;
+  transition: .5s;
+}
+
+button:focus {
+  outline: 0;
+}
   /*
   Media Queries for Responsive Design
   */
