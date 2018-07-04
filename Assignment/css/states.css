@@ -54,6 +54,10 @@ footer a{
     .two-column{
         flex-direction: column;
     }
+    .hero img{
+        padding-left: 05%;
+        width:110%
+    }
     .aside1, .content, .aside2{
         width:100%;
     }
