@@ -72,10 +72,10 @@ footer a{
     .three-rows{
       padding-left: 25%;
     }
-    .conatiner #text{
+    .container #text{
         font-size: 30px;
     }
-    #texty{
+    h1{
       font-size: 30px;
     }
 }
