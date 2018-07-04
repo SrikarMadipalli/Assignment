@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(to  bottom , #8e44ad, #3498db, #8e44ad);
+    margin: 0%;
+    font-family: sans-serif;
+}
+ul {
+    text-align: center;
+    padding-left: 0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); 
+}
+li {
+    display: inline-block;
+}
+a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+}
+img{
+    height: 30px;
+} 
+h3{
+    display: none;
+}
+video{
+    width:100%;
+    height:auto;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+button {
+    color: #999;
+    background-color: #330C2F;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 32px;
+    width: 200px;
+    margin: 20px auto 0px auto; 
+    float:left;
+}
+button.accept {
+    border-radius: 0px 0px 0px 10px;
+    border-right: solid 1px #B7C0EE;
+}
+button.regret {
+    border-radius: 0px 0px 10px 0px;
+}
+button:hover {
+    background-color: #B7C0EE;
+    transition: .5s;
+}
+button:focus {
+    outline: 0;
+}
+blockquote{
+    border: double;
+    border-color:#330C2F;
+}

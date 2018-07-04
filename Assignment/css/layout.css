@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height:10vh;
+    padding: 30px;
+}
+.three-column{
+    display: flex;
+    padding:10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    align-content: center;
+}
+.two-column{
+    display: flex;
+}
+.three-rows{
+    display: flex;
+    padding: 20px;
+    padding-top: 75px;
+    flex-direction: column;
+}

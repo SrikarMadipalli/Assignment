@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+}
+.hero{
+    margin-top: 110px;
+    width:100%;
+}
+aside{
+    width:33.33%;
+}
+section{
+    width: 33.33%;
+}
+.videos{
+    width:45%;
+}
+.three-rows{
+    width:55%;
+}
+.form {
+    height: 590px;
+    width: 400px;
+    background-image: linear-gradient(to  bottom , #8e44ad, #3498db, #8e44ad);
+    margin: 55px auto;
+    margin-bottom: 45px;
+    border-radius: 10px;
+    color: #1a1a1a;
+    padding: 0px 0px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  .form h1, h2, p {
+    text-align: center;
+    padding: 0px;
+    margin: 5px 5px;
+  }
+  
+  .form h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+  }
+  
+  .form p.line {
+    margin: 0px auto 20px auto;
+    color: #1a1a1a;
+  }
+  
+  .form input {
+    font-size: 15px;
+    color: #1a1a1a;
+    padding: 6px;
+    margin: 25px auto 20px;
+    display: block;
+    width: 75%;  
+  }
+  
+  input:focus {
+    outline: 0;
+  }
+  
+  .button button {
+    display: inline-block;
+    width: 400px;
+  }
