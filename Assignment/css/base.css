@@ -32,11 +32,6 @@ img{
 h3{
     display: none;
 }
-video{
-    width:100%;
-    height:auto;
-    padding: 20px;
-}
 footer{
     text-align: center;
     font-weight: bold;
@@ -70,4 +65,9 @@ button:focus {
 blockquote{
     border: double;
     border-color:#330C2F;
+}
+iframe{
+    width:100%;
+    height:auto;
+    padding: 20px;
 }
